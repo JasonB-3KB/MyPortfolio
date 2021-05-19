@@ -579,13 +579,17 @@ footer span a:hover{
     .home{
         display: flex;
         background-size: cover;
+        background-attachment: fixed;
+        background: url("Images/cropped3spider.png"), no-repeat center, black;
+        height: 100vh;
             
-        background: url("Images/croppedspider.png");
-        object-fit: cover;    
         color: #fff;
-        min-height: 500px;
+        min-height: 400px;
         font-family: 'Ubuntu', sans-serif;
         }
+    .home .home-content{
+        margin-top: -100px;
+    }
     .max-width{
         padding: 0 23px;
     }
@@ -626,4 +630,7 @@ footer span a:hover{
     .about .about-content .typing{
         font-size: 30px;
     } 
+    .home .home-content{
+        padding-top: 20;
+    }
 }
