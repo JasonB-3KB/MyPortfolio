@@ -13,13 +13,13 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Coder", "Content Creator", "3D Artist", "YouTuber"],
+        strings: ["Coder", "Dragonborn", "3D Artist", "YouTuber"],
         typeSpeed:100, 
         backSpeed:40, 
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Coder", "Content Creator", "3D Artist", "YouTuber"],
+        strings: ["Coder", "Dragonborn", "3D Artist", "YouTuber"],
         typeSpeed:100, 
         backSpeed:40, 
         loop: true
