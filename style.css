@@ -523,7 +523,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: rgb(7, 75, 75);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -576,6 +576,16 @@ footer span a:hover{
     }
 }
 @media (max-width: 690px){
+    .home{
+        display: flex;
+        background-size: cover;
+            
+        background: url("Images/croppedspider.png");
+        object-fit: cover;    
+        color: #fff;
+        min-height: 500px;
+        font-family: 'Ubuntu', sans-serif;
+        }
     .max-width{
         padding: 0 23px;
     }
@@ -611,4 +621,9 @@ footer span a:hover{
         font-size: 23px;
         padding: 10px 30px;
     }
+}
+@media (max-width: 375px){
+    .about .about-content .typing{
+        font-size: 30px;
+    } 
 }
