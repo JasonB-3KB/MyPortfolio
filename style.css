@@ -578,7 +578,7 @@ footer span a:hover{
 @media (max-width: 690px){
     .home{
         display: flex;
-        background-size: cover;
+        background-size: contain;
         background-attachment: fixed;
         background: url("Images/cyanspiderEyesFixed1080cropped.png"), no-repeat center, black;
         height: 100vh;
