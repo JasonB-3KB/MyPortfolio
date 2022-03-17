@@ -70,9 +70,9 @@ html{
 }
 .home{
     display: flex;
-    background-size: contain;
-    background-attachment: fixed;    
-    background: url("Images/55369A37-3AD6-41AA-AFEC-1C9B23617271.png") no-repeat right,black;
+    background-size: cover;    
+        
+    background: url("Images/7D2EFBB6-14E6-4C5E-A1EA-D76E8957B218.png") no-repeat left,black;
     height: 100vh;    
     color: #fff;
     min-height: 500px;
