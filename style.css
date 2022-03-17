@@ -82,7 +82,7 @@ html{
     margin:auto 0 auto 40px;
 }
 .home .home-content{
-    padding-top: 400px;
+    padding-top: 200px;
     padding-left: 150px;
 }
 .home .home-content .text-1{
@@ -496,6 +496,10 @@ footer span a:hover{
     .home .max-width{
         margin-left: 0px;
     }
+    .home .home-content{
+        padding-top: 200px;
+        padding-left: 20px;
+    }
 }
 @media (max-width:1104px){
     .about .about-content .left img{
@@ -539,7 +543,10 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
-    
+    .home .home-content{
+        padding-top: 200px;
+        padding-left: 20px;
+    }
     .home .home-content .text-2{
         font-size: 70px;
         
@@ -614,7 +621,7 @@ footer span a:hover{
     
     
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 40px;
         
     }
     .home .home-content .text-3{
