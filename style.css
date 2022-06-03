@@ -71,8 +71,8 @@ html{
 .home{
     display: flex;
     background-size: cover; 
-    background: url(Images/cyanspiderEyesFixed1080.png) black;
-    padding-top: 200px;
+    background: url(Images/finalCFA5.png) black;
+    padding-top: 400px;
     height: 100vh;    
     color: #fff;
     min-height: 500px;
