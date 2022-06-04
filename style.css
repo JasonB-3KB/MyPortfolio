@@ -760,8 +760,18 @@ footer span a:hover{
 }
 @media (max-width: 376px){
     
+  .home{
+    display: flex;       
+    background: url("Images/finalCFA5.png");
+    background-position: -850px;
+    height: 60vh;            
+    color: #fff;
+    min-height: 250px;
+    font-family: 'Ubuntu', sans-serif;
+    }
     .home .home-content{
-      margin-top: -350px;
+      margin-top: -300px;
+      
     }
     .home .home-content .text-2{
         font-size: 40px;
@@ -773,7 +783,7 @@ footer span a:hover{
     }
     .home .home-content a{
         font-size: 23px;
-        padding: 10px 30px;
+        padding: 10px 10px;
     }
     .container
     {
