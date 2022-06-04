@@ -713,18 +713,16 @@ footer span a:hover{
 }
 @media (max-width: 690px){
     .home{
-        display: flex;
-        background-size: contain;
-        background-attachment: fixed;
-        background: url("Images/finalCFA5.png"), no-repeat center, black;
-        height: 100vh;
-            
+        display: flex;       
+        background: url("Images/finalCFA5.png");
+        background-position: -850px;
+        height: 75vh;            
         color: #fff;
-        min-height: 400px;
+        min-height: 200px;
         font-family: 'Ubuntu', sans-serif;
         }
     .home .home-content{
-        margin-top: -100px;
+        margin-top: -200px;
     }
     .max-width{
         padding: 0 23px;
@@ -740,6 +738,15 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
         
+    }
+    .container
+    {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
     }
     .services .serv-content .card,
     .skills .skills-content .column{

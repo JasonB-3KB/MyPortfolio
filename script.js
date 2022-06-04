@@ -13,7 +13,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Coder", "Content Creator", "3D Artist", "YouTuber"],
+        strings: ["Coder", "Content Creator", "3D Artist", "YouTuber", "Developer", "Problem Solver"],
         typeSpeed:100, 
         backSpeed:40, 
         loop: true
